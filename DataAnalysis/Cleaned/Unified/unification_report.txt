@@ -1,0 +1,26 @@
+NASA HACKATHON - DATA UNIFICATION REPORT
+=============================================
+Total unified records: 25632
+Historical monthly records: 25392
+Future projection records: 240
+Environmental factors: 16
+States: Alabama, New York, Texas
+
+Records by type:
+record_type
+historical_observation    25392
+future_projection           240
+
+Records by state:
+state     record_type
+Alabama   future_projection           80
+          historical_observation    8464
+New York  future_projection           80
+          historical_observation    8464
+Texas     future_projection           80
+          historical_observation    8464
+
+Missing observed values in historical records: 675
+Missing significance labels in historical records: 0
+
+IMPORTANT: Future values are trend-continuation scenarios, not observed measurements or formal climate forecasts.

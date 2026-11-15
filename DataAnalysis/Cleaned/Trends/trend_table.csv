@@ -1,0 +1,241 @@
+variable,factor,state,period,unit,first_year,last_year,n_years,mean,slope_per_decade,pct_per_decade,direction
+other,M2SMNXEDI_2_DTR,Alabama,DJF,,1983,2026,44,10.9759,0.216019,,up
+other,M2SMNXEDI_2_DTR,Alabama,JJA,,1983,2026,44,11.9908,-0.00194339,,down
+other,M2SMNXEDI_2_DTR,Alabama,MAM,,1983,2026,44,12.2732,-0.0174626,,down
+other,M2SMNXEDI_2_DTR,Alabama,SON,,1982,2025,44,12.7178,0.218696,,up
+other,M2SMNXEDI_2_DTR,Alabama,annual,,1983,2025,43,11.9795,0.0804434,,up
+other,M2SMNXEDI_2_DTR,New York,DJF,,1983,2026,44,7.57813,-0.154528,,down
+other,M2SMNXEDI_2_DTR,New York,JJA,,1983,2026,44,10.0291,-0.0903096,,down
+other,M2SMNXEDI_2_DTR,New York,MAM,,1983,2026,44,9.91009,0.0631657,,up
+other,M2SMNXEDI_2_DTR,New York,SON,,1982,2025,44,9.06127,-0.0551627,,down
+other,M2SMNXEDI_2_DTR,New York,annual,,1983,2025,43,9.13682,-0.0686746,,down
+other,M2SMNXEDI_2_DTR,Texas,DJF,,1983,2026,44,12.9824,0.242374,,up
+other,M2SMNXEDI_2_DTR,Texas,JJA,,1983,2026,44,12.7565,0.0195512,,up
+other,M2SMNXEDI_2_DTR,Texas,MAM,,1983,2026,44,14.4962,-0.046477,,down
+other,M2SMNXEDI_2_DTR,Texas,SON,,1982,2025,44,13.0488,0.113205,,up
+other,M2SMNXEDI_2_DTR,Texas,annual,,1983,2025,43,13.3156,0.0849116,,up
+other,M2TMNXSLV_5_12_4_TS,Alabama,DJF,,1983,2026,44,7.83379,0.4798,,up
+other,M2TMNXSLV_5_12_4_TS,Alabama,JJA,,1983,2026,44,26.7349,0.276795,,up
+other,M2TMNXSLV_5_12_4_TS,Alabama,MAM,,1983,2026,44,17.159,0.436044,,up
+other,M2TMNXSLV_5_12_4_TS,Alabama,SON,,1982,2025,44,18.1586,0.317267,,up
+other,M2TMNXSLV_5_12_4_TS,Alabama,annual,,1983,2025,43,17.448,0.377846,,up
+other,M2TMNXSLV_5_12_4_TS,New York,DJF,,1983,2026,44,-4.0594,0.363867,,up
+other,M2TMNXSLV_5_12_4_TS,New York,JJA,,1983,2026,44,19.3909,0.447972,,up
+other,M2TMNXSLV_5_12_4_TS,New York,MAM,,1983,2026,44,5.88897,0.385605,,up
+other,M2TMNXSLV_5_12_4_TS,New York,SON,,1982,2025,44,9.87272,0.5251,,up
+other,M2TMNXSLV_5_12_4_TS,New York,annual,,1983,2025,43,7.76264,0.45347,,up
+other,M2TMNXSLV_5_12_4_TS,Texas,DJF,,1983,2026,44,8.9891,0.472471,,up
+other,M2TMNXSLV_5_12_4_TS,Texas,JJA,,1983,2026,44,29.7915,0.438437,,up
+other,M2TMNXSLV_5_12_4_TS,Texas,MAM,,1983,2026,44,20.0131,0.46838,,up
+other,M2TMNXSLV_5_12_4_TS,Texas,SON,,1982,2025,44,19.9941,0.454137,,up
+other,M2TMNXSLV_5_12_4_TS,Texas,annual,,1983,2025,43,19.6639,0.436578,,up
+precipitation,precip_mm_month,Alabama,DJF,mm/season,2001,2025,25,425.681,27.1691,6.38251,up
+precipitation,precip_mm_month,Alabama,JJA,mm/season,2000,2025,26,407.805,31.1753,7.64466,up
+precipitation,precip_mm_month,Alabama,MAM,mm/season,2001,2025,25,411.333,49.7149,12.0863,up
+precipitation,precip_mm_month,Alabama,SON,mm/season,2000,2024,25,292.588,-35.6883,-12.1974,down
+precipitation,precip_mm_month,Alabama,annual,mm/yr,2001,2024,24,1541.1,28.7968,1.86859,up
+precipitation,precip_mm_month,New York,DJF,mm/season,2001,2025,25,303.981,7.5749,2.4919,up
+precipitation,precip_mm_month,New York,JJA,mm/season,2000,2025,26,333.739,-6.30385,-1.88886,down
+precipitation,precip_mm_month,New York,MAM,mm/season,2001,2025,25,293.382,0.832507,0.283762,up
+precipitation,precip_mm_month,New York,SON,mm/season,2000,2024,25,308.335,-14.3539,-4.65529,down
+precipitation,precip_mm_month,New York,annual,mm/yr,2001,2024,24,1243.3,-21.5444,-1.73284,down
+precipitation,precip_mm_month,Texas,DJF,mm/season,2001,2025,25,133.965,-8.68051,-6.47968,down
+precipitation,precip_mm_month,Texas,JJA,mm/season,2000,2025,26,220.061,-1.1353,-0.515902,down
+precipitation,precip_mm_month,Texas,MAM,mm/season,2001,2025,25,211.205,31.1267,14.7376,up
+precipitation,precip_mm_month,Texas,SON,mm/season,2000,2024,25,213.349,-24.3827,-11.4285,down
+precipitation,precip_mm_month,Texas,annual,mm/yr,2001,2024,24,775.037,-22.2623,-2.87242,down
+soil_moisture,FLDAS_0-10cm,Alabama,DJF,m³/m³,1983,2026,44,0.37517,-0.00395808,-1.05501,down
+soil_moisture,FLDAS_0-10cm,Alabama,JJA,m³/m³,1983,2026,44,0.332618,0.00178633,0.537053,up
+soil_moisture,FLDAS_0-10cm,Alabama,MAM,m³/m³,1983,2026,44,0.377154,-0.00171318,-0.45424,down
+soil_moisture,FLDAS_0-10cm,Alabama,SON,m³/m³,1982,2025,44,0.308032,-0.00482272,-1.56566,down
+soil_moisture,FLDAS_0-10cm,Alabama,annual,m³/m³,1983,2025,43,0.348777,-0.00159108,-0.456189,down
+soil_moisture,FLDAS_0-10cm,New York,DJF,m³/m³,1983,2026,44,0.400526,0.000384658,0.0960383,up
+soil_moisture,FLDAS_0-10cm,New York,JJA,m³/m³,1983,2026,44,0.334013,0.000541019,0.161976,up
+soil_moisture,FLDAS_0-10cm,New York,MAM,m³/m³,1983,2026,44,0.364595,0.00114749,0.314729,up
+soil_moisture,FLDAS_0-10cm,New York,SON,m³/m³,1982,2025,44,0.336663,-0.00138222,-0.410565,down
+soil_moisture,FLDAS_0-10cm,New York,annual,m³/m³,1983,2025,43,0.359013,-0.000431875,-0.120295,down
+soil_moisture,FLDAS_0-10cm,Texas,DJF,m³/m³,1983,2026,44,0.259819,-0.00703992,-2.70955,down
+soil_moisture,FLDAS_0-10cm,Texas,JJA,m³/m³,1983,2026,44,0.238923,-0.000750618,-0.314168,down
+soil_moisture,FLDAS_0-10cm,Texas,MAM,m³/m³,1983,2026,44,0.251016,-0.00176951,-0.70494,down
+soil_moisture,FLDAS_0-10cm,Texas,SON,m³/m³,1982,2025,44,0.244471,-0.00497525,-2.03511,down
+soil_moisture,FLDAS_0-10cm,Texas,annual,m³/m³,1983,2025,43,0.248858,-0.00338412,-1.35986,down
+soil_moisture,FLDAS_10-40cm,Alabama,DJF,m³/m³,1983,2026,44,0.380285,-0.0041768,-1.09833,down
+soil_moisture,FLDAS_10-40cm,Alabama,JJA,m³/m³,1983,2026,44,0.328791,0.00216168,0.657463,up
+soil_moisture,FLDAS_10-40cm,Alabama,MAM,m³/m³,1983,2026,44,0.381585,-0.00187297,-0.490839,down
+soil_moisture,FLDAS_10-40cm,Alabama,SON,m³/m³,1982,2025,44,0.312163,-0.00388793,-1.24548,down
+soil_moisture,FLDAS_10-40cm,Alabama,annual,m³/m³,1983,2025,43,0.35127,-0.00127703,-0.363547,down
+soil_moisture,FLDAS_10-40cm,New York,DJF,m³/m³,1983,2026,44,0.426265,0.00103174,0.242041,up
+soil_moisture,FLDAS_10-40cm,New York,JJA,m³/m³,1983,2026,44,0.32662,0.000693667,0.212378,up
+soil_moisture,FLDAS_10-40cm,New York,MAM,m³/m³,1983,2026,44,0.417954,-0.00089506,-0.214153,down
+soil_moisture,FLDAS_10-40cm,New York,SON,m³/m³,1982,2025,44,0.330864,-0.00156408,-0.472727,down
+soil_moisture,FLDAS_10-40cm,New York,annual,m³/m³,1983,2025,43,0.375677,0.000131344,0.034962,up
+soil_moisture,FLDAS_10-40cm,Texas,DJF,m³/m³,1983,2026,44,0.278239,-0.0066335,-2.3841,down
+soil_moisture,FLDAS_10-40cm,Texas,JJA,m³/m³,1983,2026,44,0.238768,0.000300833,0.125994,up
+soil_moisture,FLDAS_10-40cm,Texas,MAM,m³/m³,1983,2026,44,0.263334,-0.00363069,-1.37874,down
+soil_moisture,FLDAS_10-40cm,Texas,SON,m³/m³,1982,2025,44,0.257438,-0.00278792,-1.08295,down
+soil_moisture,FLDAS_10-40cm,Texas,annual,m³/m³,1983,2025,43,0.259991,-0.00272192,-1.04693,down
+soil_moisture,FLDAS_100-200cm,Alabama,DJF,m³/m³,1983,2026,44,0.36635,-0.00780853,-2.13144,down
+soil_moisture,FLDAS_100-200cm,Alabama,JJA,m³/m³,1983,2026,44,0.340634,0.000706848,0.20751,up
+soil_moisture,FLDAS_100-200cm,Alabama,MAM,m³/m³,1983,2026,44,0.398075,-0.00412939,-1.03734,down
+soil_moisture,FLDAS_100-200cm,Alabama,SON,m³/m³,1982,2025,44,0.311251,-0.000312604,-0.100435,down
+soil_moisture,FLDAS_100-200cm,Alabama,annual,m³/m³,1983,2025,43,0.354945,-0.00263115,-0.741283,down
+soil_moisture,FLDAS_100-200cm,New York,DJF,m³/m³,1983,2026,44,0.376094,0.0018049,0.479907,up
+soil_moisture,FLDAS_100-200cm,New York,JJA,m³/m³,1983,2026,44,0.362396,-7.43939e-05,-0.0205284,down
+soil_moisture,FLDAS_100-200cm,New York,MAM,m³/m³,1983,2026,44,0.386385,0.00202577,0.524288,up
+soil_moisture,FLDAS_100-200cm,New York,SON,m³/m³,1982,2025,44,0.346877,0.00224693,0.647759,up
+soil_moisture,FLDAS_100-200cm,New York,annual,m³/m³,1983,2025,43,0.368749,0.00153158,0.415345,up
+soil_moisture,FLDAS_100-200cm,Texas,DJF,m³/m³,1983,2026,44,0.302808,-0.000292192,-0.0964939,down
+soil_moisture,FLDAS_100-200cm,Texas,JJA,m³/m³,1983,2026,44,0.299042,0.00103489,0.346068,up
+soil_moisture,FLDAS_100-200cm,Texas,MAM,m³/m³,1983,2026,44,0.304542,-0.0001098,-0.0360543,down
+soil_moisture,FLDAS_100-200cm,Texas,SON,m³/m³,1982,2025,44,0.296102,0.00148663,0.502068,up
+soil_moisture,FLDAS_100-200cm,Texas,annual,m³/m³,1983,2025,43,0.300811,0.000798651,0.265499,up
+soil_moisture,FLDAS_40-100cm,Alabama,DJF,m³/m³,1983,2026,44,0.370383,-0.00563139,-1.52042,down
+soil_moisture,FLDAS_40-100cm,Alabama,JJA,m³/m³,1983,2026,44,0.312491,0.0022103,0.707315,up
+soil_moisture,FLDAS_40-100cm,Alabama,MAM,m³/m³,1983,2026,44,0.384475,-0.00243455,-0.633214,down
+soil_moisture,FLDAS_40-100cm,Alabama,SON,m³/m³,1982,2025,44,0.286182,-0.00245917,-0.859305,down
+soil_moisture,FLDAS_40-100cm,Alabama,annual,m³/m³,1983,2025,43,0.339175,-0.00150692,-0.44429,down
+soil_moisture,FLDAS_40-100cm,New York,DJF,m³/m³,1983,2026,44,0.352467,0.00159343,0.452079,up
+soil_moisture,FLDAS_40-100cm,New York,JJA,m³/m³,1983,2026,44,0.310796,-0.000449192,-0.144529,down
+soil_moisture,FLDAS_40-100cm,New York,MAM,m³/m³,1983,2026,44,0.395342,0.00109775,0.277672,up
+soil_moisture,FLDAS_40-100cm,New York,SON,m³/m³,1982,2025,44,0.291882,0.000749165,0.256667,up
+soil_moisture,FLDAS_40-100cm,New York,annual,m³/m³,1983,2025,43,0.338292,0.000814028,0.240628,up
+soil_moisture,FLDAS_40-100cm,Texas,DJF,m³/m³,1983,2026,44,0.237691,-0.00816821,-3.43648,down
+soil_moisture,FLDAS_40-100cm,Texas,JJA,m³/m³,1983,2026,44,0.201812,-0.00112096,-0.55545,down
+soil_moisture,FLDAS_40-100cm,Texas,MAM,m³/m³,1983,2026,44,0.23274,-0.00574254,-2.46737,down
+soil_moisture,FLDAS_40-100cm,Texas,SON,m³/m³,1982,2025,44,0.205372,-0.00228494,-1.11259,down
+soil_moisture,FLDAS_40-100cm,Texas,annual,m³/m³,1983,2025,43,0.220111,-0.00352625,-1.60203,down
+soil_moisture,NLDAS_0-10cm,Alabama,DJF,m³/m³,1983,2026,44,0.258012,-0.00244196,-0.946451,down
+soil_moisture,NLDAS_0-10cm,Alabama,JJA,m³/m³,1983,2026,44,0.232477,-0.000240769,-0.103567,down
+soil_moisture,NLDAS_0-10cm,Alabama,MAM,m³/m³,1983,2026,44,0.239769,-0.000564854,-0.235583,down
+soil_moisture,NLDAS_0-10cm,Alabama,SON,m³/m³,1982,2025,44,0.222962,-0.00420523,-1.88607,down
+soil_moisture,NLDAS_0-10cm,Alabama,annual,m³/m³,1983,2025,43,0.238321,-0.00189495,-0.795125,down
+soil_moisture,NLDAS_0-10cm,New York,DJF,m³/m³,1983,2026,44,0.400135,-0.00475746,-1.18896,down
+soil_moisture,NLDAS_0-10cm,New York,JJA,m³/m³,1983,2026,44,0.266157,-8.68264e-05,-0.0326223,down
+soil_moisture,NLDAS_0-10cm,New York,MAM,m³/m³,1983,2026,44,0.300938,-0.00202003,-0.671243,down
+soil_moisture,NLDAS_0-10cm,New York,SON,m³/m³,1982,2025,44,0.272658,-0.00216676,-0.794678,down
+soil_moisture,NLDAS_0-10cm,New York,annual,m³/m³,1983,2025,43,0.309997,-0.00269117,-0.868128,down
+soil_moisture,NLDAS_0-10cm,Texas,DJF,m³/m³,1983,2026,44,0.224527,-0.00726172,-3.23423,down
+soil_moisture,NLDAS_0-10cm,Texas,JJA,m³/m³,1983,2026,44,0.191506,-0.004212,-2.1994,down
+soil_moisture,NLDAS_0-10cm,Texas,MAM,m³/m³,1983,2026,44,0.202984,-0.00393735,-1.93973,down
+soil_moisture,NLDAS_0-10cm,Texas,SON,m³/m³,1982,2025,44,0.204786,-0.00466224,-2.27664,down
+soil_moisture,NLDAS_0-10cm,Texas,annual,m³/m³,1983,2025,43,0.206258,-0.00500474,-2.42644,down
+soil_moisture,NLDAS_10-40cm,Alabama,DJF,m³/m³,1983,2026,44,0.256259,-0.0022679,-0.885002,down
+soil_moisture,NLDAS_10-40cm,Alabama,JJA,m³/m³,1983,2026,44,0.234937,0.000360109,0.153279,up
+soil_moisture,NLDAS_10-40cm,Alabama,MAM,m³/m³,1983,2026,44,0.248095,-6.73333e-06,-0.00271402,down
+soil_moisture,NLDAS_10-40cm,Alabama,SON,m³/m³,1982,2025,44,0.228684,-0.00323795,-1.41591,down
+soil_moisture,NLDAS_10-40cm,Alabama,annual,m³/m³,1983,2025,43,0.242007,-0.00129968,-0.537043,down
+soil_moisture,NLDAS_10-40cm,New York,DJF,m³/m³,1983,2026,44,0.349158,0.000219965,0.0629989,up
+soil_moisture,NLDAS_10-40cm,New York,JJA,m³/m³,1983,2026,44,0.270355,5.33333e-05,0.0197272,up
+soil_moisture,NLDAS_10-40cm,New York,MAM,m³/m³,1983,2026,44,0.340236,-0.00304676,-0.895484,down
+soil_moisture,NLDAS_10-40cm,New York,SON,m³/m³,1982,2025,44,0.268241,-0.00141241,-0.526545,down
+soil_moisture,NLDAS_10-40cm,New York,annual,m³/m³,1983,2025,43,0.307038,-0.00120486,-0.392415,down
+soil_moisture,NLDAS_10-40cm,Texas,DJF,m³/m³,1983,2026,44,0.230099,-0.00524746,-2.28053,down
+soil_moisture,NLDAS_10-40cm,Texas,JJA,m³/m³,1983,2026,44,0.216057,-0.00222439,-1.02954,down
+soil_moisture,NLDAS_10-40cm,Texas,MAM,m³/m³,1983,2026,44,0.226197,-0.00323668,-1.43091,down
+soil_moisture,NLDAS_10-40cm,Texas,SON,m³/m³,1982,2025,44,0.22123,-0.0030578,-1.38218,down
+soil_moisture,NLDAS_10-40cm,Texas,annual,m³/m³,1983,2025,43,0.2237,-0.00340254,-1.52103,down
+soil_moisture,NLDAS_100-200cm,Alabama,DJF,m³/m³,1983,2026,44,0.260133,-0.00853966,-3.2828,down
+soil_moisture,NLDAS_100-200cm,Alabama,JJA,m³/m³,1983,2026,44,0.214446,-0.000723243,-0.337262,down
+soil_moisture,NLDAS_100-200cm,Alabama,MAM,m³/m³,1983,2026,44,0.267435,-0.00254624,-0.952094,down
+soil_moisture,NLDAS_100-200cm,Alabama,SON,m³/m³,1982,2025,44,0.195906,-0.0057891,-2.95504,down
+soil_moisture,NLDAS_100-200cm,Alabama,annual,m³/m³,1983,2025,43,0.234555,-0.00416794,-1.77695,down
+soil_moisture,NLDAS_100-200cm,New York,DJF,m³/m³,1983,2026,44,0.270742,0.000291366,0.107617,up
+soil_moisture,NLDAS_100-200cm,New York,JJA,m³/m³,1983,2026,44,0.281345,-0.000637413,-0.22656,down
+soil_moisture,NLDAS_100-200cm,New York,MAM,m³/m³,1983,2026,44,0.281146,-6.50651e-07,-0.000231428,down
+soil_moisture,NLDAS_100-200cm,New York,SON,m³/m³,1982,2025,44,0.275812,-0.00203097,-0.736359,down
+soil_moisture,NLDAS_100-200cm,New York,annual,m³/m³,1983,2025,43,0.277304,-0.000629333,-0.226947,down
+soil_moisture,NLDAS_100-200cm,Texas,DJF,m³/m³,1983,2026,44,0.221967,-0.00804175,-3.62294,down
+soil_moisture,NLDAS_100-200cm,Texas,JJA,m³/m³,1983,2026,44,0.209308,-0.00518923,-2.47923,down
+soil_moisture,NLDAS_100-200cm,Texas,MAM,m³/m³,1983,2026,44,0.226641,-0.00712111,-3.14201,down
+soil_moisture,NLDAS_100-200cm,Texas,SON,m³/m³,1982,2025,44,0.203328,-0.00364493,-1.79264,down
+soil_moisture,NLDAS_100-200cm,Texas,annual,m³/m³,1983,2025,43,0.215887,-0.00561859,-2.60256,down
+soil_moisture,NLDAS_40-100cm,Alabama,DJF,m³/m³,1983,2026,44,0.258797,-0.00300893,-1.16266,down
+soil_moisture,NLDAS_40-100cm,Alabama,JJA,m³/m³,1983,2026,44,0.222875,0.000170042,0.0762946,up
+soil_moisture,NLDAS_40-100cm,Alabama,MAM,m³/m³,1983,2026,44,0.252831,-0.00079769,-0.315503,down
+soil_moisture,NLDAS_40-100cm,Alabama,SON,m³/m³,1982,2025,44,0.218206,-0.00424218,-1.94412,down
+soil_moisture,NLDAS_40-100cm,Alabama,annual,m³/m³,1983,2025,43,0.238181,-0.00194429,-0.816311,down
+soil_moisture,NLDAS_40-100cm,New York,DJF,m³/m³,1983,2026,44,0.265964,0.00102217,0.384325,up
+soil_moisture,NLDAS_40-100cm,New York,JJA,m³/m³,1983,2026,44,0.273412,-0.000126252,-0.0461765,down
+soil_moisture,NLDAS_40-100cm,New York,MAM,m³/m³,1983,2026,44,0.325891,-0.00303221,-0.930437,down
+soil_moisture,NLDAS_40-100cm,New York,SON,m³/m³,1982,2025,44,0.270315,-0.00162931,-0.602744,down
+soil_moisture,NLDAS_40-100cm,New York,annual,m³/m³,1983,2025,43,0.284065,-0.000837917,-0.294973,down
+soil_moisture,NLDAS_40-100cm,Texas,DJF,m³/m³,1983,2026,44,0.217863,-0.00708648,-3.25273,down
+soil_moisture,NLDAS_40-100cm,Texas,JJA,m³/m³,1983,2026,44,0.193851,-0.00375212,-1.93557,down
+soil_moisture,NLDAS_40-100cm,Texas,MAM,m³/m³,1983,2026,44,0.218058,-0.00575746,-2.64033,down
+soil_moisture,NLDAS_40-100cm,Texas,SON,m³/m³,1982,2025,44,0.195119,-0.00383823,-1.96712,down
+soil_moisture,NLDAS_40-100cm,Texas,annual,m³/m³,1983,2025,43,0.206783,-0.00479845,-2.32052,down
+temperature,M2SMNXSLV_5_12_4_T2MMAX,Alabama,DJF,°C,1983,2026,44,14.2823,0.612103,,up
+temperature,M2SMNXSLV_5_12_4_T2MMAX,Alabama,JJA,°C,1983,2026,44,33.4277,0.296238,,up
+temperature,M2SMNXSLV_5_12_4_T2MMAX,Alabama,MAM,°C,1983,2026,44,24.0261,0.478577,,up
+temperature,M2SMNXSLV_5_12_4_T2MMAX,Alabama,SON,°C,1982,2025,44,25.4847,0.4126,,up
+temperature,M2SMNXSLV_5_12_4_T2MMAX,Alabama,annual,°C,1983,2025,43,24.2754,0.441107,,up
+temperature,M2SMNXSLV_5_12_4_T2MMAX,New York,DJF,°C,1983,2026,44,-0.203306,0.237649,,up
+temperature,M2SMNXSLV_5_12_4_T2MMAX,New York,JJA,°C,1983,2026,44,24.977,0.399277,,up
+temperature,M2SMNXSLV_5_12_4_T2MMAX,New York,MAM,°C,1983,2026,44,11.5072,0.39354,,up
+temperature,M2SMNXSLV_5_12_4_T2MMAX,New York,SON,°C,1982,2025,44,14.8643,0.465805,,up
+temperature,M2SMNXSLV_5_12_4_T2MMAX,New York,annual,°C,1983,2025,43,12.7705,0.416196,,up
+temperature,M2SMNXSLV_5_12_4_T2MMAX,Texas,DJF,°C,1983,2026,44,16.6014,0.635231,,up
+temperature,M2SMNXSLV_5_12_4_T2MMAX,Texas,JJA,°C,1983,2026,44,35.1387,0.440995,,up
+temperature,M2SMNXSLV_5_12_4_T2MMAX,Texas,MAM,°C,1983,2026,44,27.2078,0.457429,,up
+temperature,M2SMNXSLV_5_12_4_T2MMAX,Texas,SON,°C,1982,2025,44,26.8526,0.498978,,up
+temperature,M2SMNXSLV_5_12_4_T2MMAX,Texas,annual,°C,1983,2025,43,26.4163,0.494186,,up
+temperature,M2SMNXSLV_5_12_4_T2MMIN,Alabama,DJF,°C,1983,2026,44,3.30636,0.362245,,up
+temperature,M2SMNXSLV_5_12_4_T2MMIN,Alabama,JJA,°C,1983,2026,44,21.4369,0.264983,,up
+temperature,M2SMNXSLV_5_12_4_T2MMIN,Alabama,MAM,°C,1983,2026,44,11.7478,0.522957,,up
+temperature,M2SMNXSLV_5_12_4_T2MMIN,Alabama,SON,°C,1982,2025,44,12.7669,0.261189,,up
+temperature,M2SMNXSLV_5_12_4_T2MMIN,Alabama,annual,°C,1983,2025,43,12.2945,0.360888,,up
+temperature,M2SMNXSLV_5_12_4_T2MMIN,New York,DJF,°C,1983,2026,44,-7.78143,0.381605,,up
+temperature,M2SMNXSLV_5_12_4_T2MMIN,New York,JJA,°C,1983,2026,44,14.9479,0.485788,,up
+temperature,M2SMNXSLV_5_12_4_T2MMIN,New York,MAM,°C,1983,2026,44,1.59231,0.405683,,up
+temperature,M2SMNXSLV_5_12_4_T2MMIN,New York,SON,°C,1982,2025,44,5.803,0.505542,,up
+temperature,M2SMNXSLV_5_12_4_T2MMIN,New York,annual,°C,1983,2025,43,3.63243,0.47108,,up
+temperature,M2SMNXSLV_5_12_4_T2MMIN,Texas,DJF,°C,1983,2026,44,3.61898,0.354482,,up
+temperature,M2SMNXSLV_5_12_4_T2MMIN,Texas,JJA,°C,1983,2026,44,22.3822,0.402175,,up
+temperature,M2SMNXSLV_5_12_4_T2MMIN,Texas,MAM,°C,1983,2026,44,12.7016,0.52503,,up
+temperature,M2SMNXSLV_5_12_4_T2MMIN,Texas,SON,°C,1982,2025,44,13.8039,0.347397,,up
+temperature,M2SMNXSLV_5_12_4_T2MMIN,Texas,annual,°C,1983,2025,43,13.0981,0.404621,,up
+temperature,M2TMNXSLV_5_12_4_T2M,Alabama,DJF,°C,1983,2026,44,7.96919,0.49266,,up
+temperature,M2TMNXSLV_5_12_4_T2M,Alabama,JJA,°C,1983,2026,44,26.7344,0.253389,,up
+temperature,M2TMNXSLV_5_12_4_T2M,Alabama,MAM,°C,1983,2026,44,17.2576,0.4374,,up
+temperature,M2TMNXSLV_5_12_4_T2M,Alabama,SON,°C,1982,2025,44,18.2621,0.305013,,up
+temperature,M2TMNXSLV_5_12_4_T2M,Alabama,annual,°C,1983,2025,43,17.5328,0.380522,,up
+temperature,M2TMNXSLV_5_12_4_T2M,New York,DJF,°C,1983,2026,44,-4.20709,0.345544,,up
+temperature,M2TMNXSLV_5_12_4_T2M,New York,JJA,°C,1983,2026,44,19.6093,0.410089,,up
+temperature,M2TMNXSLV_5_12_4_T2M,New York,MAM,°C,1983,2026,44,6.14665,0.382671,,up
+temperature,M2TMNXSLV_5_12_4_T2M,New York,SON,°C,1982,2025,44,9.80737,0.481427,,up
+temperature,M2TMNXSLV_5_12_4_T2M,New York,annual,°C,1983,2025,43,7.82871,0.422451,,up
+temperature,M2TMNXSLV_5_12_4_T2M,Texas,DJF,°C,1983,2026,44,8.97514,0.477821,,up
+temperature,M2TMNXSLV_5_12_4_T2M,Texas,JJA,°C,1983,2026,44,28.4448,0.396045,,up
+temperature,M2TMNXSLV_5_12_4_T2M,Texas,MAM,°C,1983,2026,44,19.2152,0.460382,,up
+temperature,M2TMNXSLV_5_12_4_T2M,Texas,SON,°C,1982,2025,44,19.5016,0.429116,,up
+temperature,M2TMNXSLV_5_12_4_T2M,Texas,annual,°C,1983,2025,43,19.0038,0.413787,,up
+temperature,M2TMNXSLV_5_12_4_T2MDEW,Alabama,DJF,°C,1983,2026,44,5.03025,0.327188,,up
+temperature,M2TMNXSLV_5_12_4_T2MDEW,Alabama,JJA,°C,1983,2026,44,20.7699,0.262984,,up
+temperature,M2TMNXSLV_5_12_4_T2MDEW,Alabama,MAM,°C,1983,2026,44,12.9799,0.43677,,up
+temperature,M2TMNXSLV_5_12_4_T2MDEW,Alabama,SON,°C,1982,2025,44,12.6314,0.0493376,,up
+temperature,M2TMNXSLV_5_12_4_T2MDEW,Alabama,annual,°C,1983,2025,43,12.8403,0.284924,,up
+temperature,M2TMNXSLV_5_12_4_T2MDEW,New York,DJF,°C,1983,2026,44,-5.9265,0.285362,,up
+temperature,M2TMNXSLV_5_12_4_T2MDEW,New York,JJA,°C,1983,2026,44,14.971,0.453183,,up
+temperature,M2TMNXSLV_5_12_4_T2MDEW,New York,MAM,°C,1983,2026,44,2.77926,0.314712,,up
+temperature,M2TMNXSLV_5_12_4_T2MDEW,New York,SON,°C,1982,2025,44,6.01749,0.471796,,up
+temperature,M2TMNXSLV_5_12_4_T2MDEW,New York,annual,°C,1983,2025,43,4.45268,0.41888,,up
+temperature,M2TMNXSLV_5_12_4_T2MDEW,Texas,DJF,°C,1983,2026,44,1.94807,-0.016625,,down
+temperature,M2TMNXSLV_5_12_4_T2MDEW,Texas,JJA,°C,1983,2026,44,17.8496,0.259879,,up
+temperature,M2TMNXSLV_5_12_4_T2MDEW,Texas,MAM,°C,1983,2026,44,9.08069,0.224299,,up
+temperature,M2TMNXSLV_5_12_4_T2MDEW,Texas,SON,°C,1982,2025,44,10.8989,0.241872,,up
+temperature,M2TMNXSLV_5_12_4_T2MDEW,Texas,annual,°C,1983,2025,43,9.93654,0.171226,,up
+temperature,M2TMNXSLV_5_12_4_T2MWET,Alabama,DJF,°C,1983,2026,44,5.05714,0.320417,,up
+temperature,M2TMNXSLV_5_12_4_T2MWET,Alabama,JJA,°C,1983,2026,44,20.7701,0.262933,,up
+temperature,M2TMNXSLV_5_12_4_T2MWET,Alabama,MAM,°C,1983,2026,44,12.9845,0.437511,,up
+temperature,M2TMNXSLV_5_12_4_T2MWET,Alabama,SON,°C,1982,2025,44,12.6424,0.0484669,,up
+temperature,M2TMNXSLV_5_12_4_T2MWET,Alabama,annual,°C,1983,2025,43,12.8509,0.283933,,up
+temperature,M2TMNXSLV_5_12_4_T2MWET,New York,DJF,°C,1983,2026,44,-5.86953,0.293564,,up
+temperature,M2TMNXSLV_5_12_4_T2MWET,New York,JJA,°C,1983,2026,44,14.9721,0.452989,,up
+temperature,M2TMNXSLV_5_12_4_T2MWET,New York,MAM,°C,1983,2026,44,2.80622,0.315244,,up
+temperature,M2TMNXSLV_5_12_4_T2MWET,New York,SON,°C,1982,2025,44,6.03336,0.470423,,up
+temperature,M2TMNXSLV_5_12_4_T2MWET,New York,annual,°C,1983,2025,43,4.47786,0.418818,,up
+temperature,M2TMNXSLV_5_12_4_T2MWET,Texas,DJF,°C,1983,2026,44,2.02917,-0.0210353,,down
+temperature,M2TMNXSLV_5_12_4_T2MWET,Texas,JJA,°C,1983,2026,44,17.851,0.25971,,up
+temperature,M2TMNXSLV_5_12_4_T2MWET,Texas,MAM,°C,1983,2026,44,9.13293,0.23722,,up
+temperature,M2TMNXSLV_5_12_4_T2MWET,Texas,SON,°C,1982,2025,44,10.922,0.242475,,up
+temperature,M2TMNXSLV_5_12_4_T2MWET,Texas,annual,°C,1983,2025,43,9.97606,0.172011,,up
