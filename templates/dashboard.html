@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block title %}Investigate a trend · Trend Detective{% endblock %}
+
+{% block head %}
+  <link href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="page">
+
+  <!-- Section 2: the two dropdowns -->
+  <section class="controls" aria-label="Choose what to investigate">
+    <div class="field">
+      <label for="state-select" class="form-label"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> State</label>
+      <select id="state-select" class="form-select" disabled></select>
+    </div>
+    <div class="field">
+      <label for="variable-select" class="form-label"><i class="fa-solid fa-droplet" aria-hidden="true"></i> Measurement</label>
+      <select id="variable-select" class="form-select" disabled></select>
+    </div>
+    <div class="field" id="depth-field" hidden>
+      <label for="depth-select" class="form-label"><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Soil depth</label>
+      <select id="depth-select" class="form-select"></select>
+    </div>
+    <p id="variable-definition" class="definition"></p>
+    <p id="controls-status" class="status" role="alert" hidden></p>
+  </section>
+
+  <main id="main" class="board">
+
+    <!-- Section 5: 3D map with state-level phenomena estimates -->
+    <section id="map-panel" class="panel map-panel" aria-label="Statewide phenomena outlook">
+      <h2 class="panel-title"><span class="tile" aria-hidden="true"><i class="fa-solid fa-map-location-dot"></i></span> Statewide phenomena outlook</h2>
+      <div class="map-wrap">
+        <div id="map" class="map-canvas" role="region" aria-label="Map of statewide drought and flood risk estimates"></div>
+        <p id="map-message" class="map-message" role="status">Loading the map&hellip;</p>
+        <span id="map-demo" class="map-demo" hidden>Demo data – not real predictions</span>
+      </div>
+      <ul id="map-legend" class="map-legend"></ul>
+      <p id="map-note" class="chart-source"></p>
+      <ul id="map-list" class="map-list" aria-label="Hotspots as a list"></ul>
+    </section>
+
+    <div class="board-side">
+
+      <!-- Section 3: time series + plain-English verdict -->
+      <section id="chart-panel" class="panel" aria-label="Change over time">
+        <h2 class="panel-title"><span class="tile" aria-hidden="true"><i class="fa-solid fa-chart-line"></i></span> Change over time</h2>
+        <div id="chart" class="chart-canvas">
+          <p class="placeholder">The time series will appear here once the data is connected.</p>
+        </div>
+        <p id="chart-source" class="chart-source"></p>
+        <div id="verdict" class="verdict" aria-live="polite"></div>
+      </section>
+
+      <!-- Section 4: phenomenon probability -->
+      <section id="probability-panel" class="panel" aria-label="Chance of an event">
+        <h2 class="panel-title"><span class="tile" aria-hidden="true"><i class="fa-solid fa-gauge-high"></i></span> Chance of an event</h2>
+        <div class="prob-head">
+          <p id="prob-value" class="prob-value">&ndash;</p>
+          <div class="prob-meta">
+            <p id="prob-label" class="prob-label">No prediction yet</p>
+            <span id="prob-tag" class="tag" hidden></span>
+          </div>
+        </div>
+        <div id="prob-meter" class="meter" role="img" hidden>
+          <div id="meter-fill" class="meter-fill"></div>
+          <div id="meter-tick" class="meter-tick"></div>
+        </div>
+        <p id="meter-legend" class="meter-legend" hidden></p>
+        <p id="prob-sentence" class="prob-sentence"></p>
+        <ul id="prob-others" class="prob-others"></ul>
+        <p id="prob-basis" class="chart-source"></p>
+        <p id="prob-note" class="prob-note" role="status"></p>
+      </section>
+
+    </div>
+  </main>
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="{{ url_for('static', filename='js/map.js') }}"></script>
+<script src="{{ url_for('static', filename='js/chart.js') }}"></script>
+<script src="{{ url_for('static', filename='js/verdict.js') }}"></script>
+<script src="{{ url_for('static', filename='js/event_chance.js') }}"></script>
+<script src="{{ url_for('static', filename='js/controls.js') }}"></script>
+{% endblock %}
