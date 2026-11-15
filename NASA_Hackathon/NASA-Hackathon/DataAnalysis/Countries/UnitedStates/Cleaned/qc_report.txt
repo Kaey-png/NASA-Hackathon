@@ -1,0 +1,38 @@
+
+=== Alabama
+  precip_mm_month    2000-06 to 2025-09 | 304 months | fill 0 | mm/hr x 24 x days | shp_22
+  FLDAS_0-10cm       1982-09 to 2026-09 | 529 months | fill 0 | none | shp_22
+  FLDAS_10-40cm      1982-09 to 2026-09 | 529 months | fill 0 | none | shp_22
+  FLDAS_100-200cm    1982-09 to 2026-09 | 529 months | fill 0 | none | shp_22
+  FLDAS_40-100cm     1982-09 to 2026-09 | 529 months | fill 0 | none | shp_22
+  NLDAS_0-10cm       1982-09 to 2026-09 | 529 months | fill 0 | kg m-2 / 100 mm | shp_22
+  NLDAS_10-40cm      1982-09 to 2026-09 | 529 months | fill 0 | kg m-2 / 300 mm | shp_22
+  NLDAS_100-200cm    1982-09 to 2026-09 | 529 months | fill 0 | kg m-2 / 1000 mm | shp_22
+  NLDAS_40-100cm     1982-09 to 2026-09 | 529 months | fill 0 | kg m-2 / 600 mm | shp_22
+  months with every series present: 304 (2000-06 to 2025-09)
+
+=== New York
+  precip_mm_month    2000-06 to 2025-09 | 304 months | fill 0 | mm/hr x 24 x days | shp_38
+  FLDAS_0-10cm       1982-09 to 2026-09 | 529 months | fill 0 | none | shp_38
+  FLDAS_10-40cm      1982-09 to 2026-09 | 529 months | fill 0 | none | shp_38
+  FLDAS_100-200cm    1982-09 to 2026-09 | 529 months | fill 0 | none | shp_38
+  FLDAS_40-100cm     1982-09 to 2026-09 | 529 months | fill 0 | none | shp_38
+  NLDAS_0-10cm       1982-09 to 2026-09 | 529 months | fill 0 | kg m-2 / 100 mm | shp_38
+  NLDAS_10-40cm      1982-09 to 2026-09 | 529 months | fill 0 | kg m-2 / 300 mm | shp_38
+  NLDAS_100-200cm    1982-09 to 2026-09 | 529 months | fill 0 | kg m-2 / 1000 mm | shp_38
+  NLDAS_40-100cm     1982-09 to 2026-09 | 529 months | fill 0 | kg m-2 / 600 mm | shp_38
+  months with every series present: 304 (2000-06 to 2025-09)
+
+=== Texas
+  precip_mm_month    2000-06 to 2025-09 | 304 months | fill 0 | mm/hr x 24 x days | shp_25
+  FLDAS_0-10cm       1982-09 to 2026-09 | 529 months | fill 0 | none | shp_25
+  FLDAS_10-40cm      1982-09 to 2026-09 | 529 months | fill 0 | none | shp_25
+  FLDAS_100-200cm    1982-09 to 2026-09 | 529 months | fill 0 | none | shp_25
+  FLDAS_40-100cm     1982-09 to 2026-09 | 529 months | fill 0 | none | shp_25
+  NLDAS_0-10cm       1982-09 to 2026-09 | 529 months | fill 0 | kg m-2 / 100 mm | shp_25
+  NLDAS_10-40cm      1982-09 to 2026-09 | 529 months | fill 0 | kg m-2 / 300 mm | shp_25
+  NLDAS_100-200cm    1982-09 to 2026-09 | 529 months | fill 0 | kg m-2 / 1000 mm | shp_25
+  NLDAS_40-100cm     1982-09 to 2026-09 | 529 months | fill 0 | kg m-2 / 600 mm | shp_25
+  months with every series present: 304 (2000-06 to 2025-09)
+
+No warnings.
