@@ -213,7 +213,6 @@ This project is an experimental environmental analysis and forecasting system.
 
 - Its geographical coverage is currently limited to Alabama, New York and Texas.
 - Predictions represent state-level environmental estimates, not county-level or city-level forecasts.
-- Historical statistical significance does not establish causation.
 - Precipitation observations cover a shorter period than most other variables.
 - Recursive forecasting can accumulate prediction errors over time.
 - The model's 12-month forecasting performance must be assessed through appropriate multi-step validation.
