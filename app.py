@@ -45,7 +45,8 @@ def hotspots():
         df, problems = None, ["hotspots.csv could not be read"]
     for p in problems:
         app.logger.warning("hotspots.csv: %s", p)
-    base = {"state": state_info["name"], "view": state_info["view"], "skipped": len(problems),
+    base = {"state": state_info["name"], "view": state_info["view"], "bbox": state_info.get("bbox"),
+            "skipped": len(problems),
             "demo": hotspot_data.USE_DEMO_HOTSPOTS,
             "legend": [{"key": k, "label": v["label"], "color": v["color"]} for k, v in PHENOMENA.items()]}
     if df is None or df.empty:

@@ -2,7 +2,7 @@
 (function () {
   if (!window.gsap) return;
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-  gsap.from(".topbar, .controls, .panel", {
+  gsap.from(".sheet", {
     y: 18, opacity: 0, duration: 0.5, ease: "power2.out", stagger: 0.08, clearProps: "all",
   });
 })();

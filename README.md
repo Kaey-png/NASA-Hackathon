@@ -48,6 +48,7 @@ It generates experimental predictions for a 12-month forecast horizon.
 ### 2. Interactive Environmental Mapping
 
 The interactive visualization component is designed to make the model's findings accessible.
+It is built as a Flask web app; see [Running the Web App](#running-the-web-app).
 
 Planned features include:
 
@@ -139,20 +140,52 @@ The forecasting system currently generates predictions recursively over a 12-mon
 
 ```text
 NASA-Hackathon/
-│
-└── DataAnalysis/
+├── app.py                  Flask web app (dashboard + JSON API)
+├── config.py               States, measurements, hazard definitions, file paths
+├── requirements.txt        Web app dependencies
+├── requirements-dev.txt    + test dependencies
+├── core/                   Data loading, trend statistics, plain-English wording, hotspots
+├── ml/                     Model inference and event-chance estimates
+├── data_pipeline/          Builds data/processed/ from data/cleaned/ and the model
+├── data/                   Data the app reads (see data/README.md)
+│   ├── raw/  cleaned/  processed/  placeholder/
+│   └── models/             Bundled copy of the trained model the app uses
+├── templates/  static/     Dashboard HTML, CSS and JavaScript
+├── tests/                  pytest suite
+├── design-review/          UI design critiques and remake prompts
+└── DataAnalysis/           Analysis scripts and model training (own requirements.txt)
+    ├── clean_nasa_data.py, analyze_trends.py, analyze_significance.py,
+    │   unify_environmental_data.py
+    ├── Countries/          Original downloaded NASA data
     └── Cleaned/
         └── Unified/
-            │
             ├── unified_environmental_dataset.csv
             ├── integrated_environmental_ai.py
-            │
             └── Integrated_AI_Results/
                 ├── environmental_ai_model.pth
                 ├── model_test_metrics.csv
                 ├── historical_test_predictions.csv
                 ├── 12_month_forecast.csv
                 └── factor_significance.csv
+```
+
+## Running the Web App
+
+The dashboard lets you pick a state and a measurement, then shows the long-term record with a
+tested trend, the chance of an unusual month, and a statewide drought/flood outlook map.
+
+```bash
+git clone https://github.com/Kaey-png/NASA-Hackathon.git
+cd NASA-Hackathon
+python -m pip install -r requirements.txt
+python app.py
+```
+
+Then open http://localhost:5000. To run the tests:
+
+```bash
+python -m pip install -r requirements-dev.txt
+python -m pytest
 ```
 
 ## Running the AI Model
@@ -170,7 +203,7 @@ NASA-Hackathon/
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/Kaey-png/NASA-Hackathon.git
 ```
 
 Navigate to the unified data directory:
@@ -179,10 +212,10 @@ Navigate to the unified data directory:
 cd NASA-Hackathon/DataAnalysis/Cleaned/Unified
 ```
 
-Install the required packages:
+Install the required packages (this also covers the other analysis scripts in `DataAnalysis/`):
 
 ```bash
-python -m pip install torch pandas numpy scikit-learn
+python -m pip install -r ../../requirements.txt
 ```
 
 Run the model:

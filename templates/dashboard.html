@@ -6,75 +6,157 @@
 {% endblock %}
 
 {% block content %}
-<div class="page">
+<div class="doc">
 
-  <!-- Section 2: the two dropdowns -->
-  <section class="controls" aria-label="Choose what to investigate">
-    <div class="field">
-      <label for="state-select" class="form-label"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> State</label>
-      <select id="state-select" class="form-select" disabled></select>
+  <!-- ============================== SHEET 01 · the finding ============================== -->
+  <header class="sheet sheet--hero" id="top">
+    <div class="strip">
+      <a class="strip__no" href="#top">01</a>
+      <span class="strip__title">Finding</span>
+      <span class="strip__ref" data-ref="01">TD-01 · Sheet 01 / 04</span>
     </div>
-    <div class="field">
-      <label for="variable-select" class="form-label"><i class="fa-solid fa-droplet" aria-hidden="true"></i> Measurement</label>
-      <select id="variable-select" class="form-select" disabled></select>
+
+    <div class="hero">
+      <div class="hero__copy">
+        <p class="kicker">A field instrument for <span class="hl">environmental trends</span></p>
+        <h1 id="question">Is this part of the Earth really changing?</h1>
+        <p class="lede">Pick a state and a measurement. We test the long-term record for a real trend and estimate the odds of an unusual month.</p>
+        <nav class="sheet-index" aria-label="Sheets on this page">
+          <a href="#top"><b>01</b> Finding</a>
+          <a href="#chart-panel"><b>02</b> Record</a>
+          <a href="#probability-panel"><b>03</b> Odds</a>
+          <a href="#map-panel"><b>04</b> Map</a>
+        </nav>
+      </div>
+
+      <div class="hero__block">
+        <!-- The dropdowns plus drawing metadata, laid out as a title block -->
+        <section class="controls titleblock" aria-label="Choose what to investigate">
+          <div class="tb field tb--select">
+            <label for="state-select" class="tb__label"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> State</label>
+            <select id="state-select" class="form-select" disabled><option>Loading…</option></select>
+          </div>
+          <div class="tb field tb--select">
+            <label for="variable-select" class="tb__label"><i class="fa-solid fa-droplet" aria-hidden="true"></i> Measurement</label>
+            <select id="variable-select" class="form-select" disabled><option>Loading…</option></select>
+          </div>
+          <div class="tb field tb--select" id="depth-field" hidden>
+            <label for="depth-select" class="tb__label"><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Soil depth</label>
+            <select id="depth-select" class="form-select"></select>
+          </div>
+          <div class="tb tb--wide">
+            <span class="tb__label">Definition</span>
+            <p id="variable-definition" class="definition"></p>
+          </div>
+          <div class="tb tb--meta"><span class="tb__label">Dataset</span><span class="tb__value" data-meta="dataset">–</span></div>
+          <div class="tb tb--meta"><span class="tb__label">Period</span><span class="tb__value" data-meta="period">–</span></div>
+          <div class="tb tb--meta"><span class="tb__label">Units</span><span class="tb__value" data-meta="units">–</span></div>
+          <div class="tb tb--meta"><span class="tb__label">Odds valid for</span><span class="tb__value" data-meta="valid">–</span></div>
+          <div class="tb tb--meta"><span class="tb__label">Method</span><span class="tb__value" data-meta="method">–</span></div>
+          <div class="tb tb--meta"><span class="tb__label">Drawn</span><span class="tb__value" data-meta="drawn">–</span></div>
+          <p id="controls-status" class="status callout callout--error" role="alert" hidden></p>
+        </section>
+
+        <!-- The answer, readable in five seconds -->
+        <dl class="finding" aria-live="polite">
+          <div class="finding__cell finding__cell--main" data-finding="verdict" aria-busy="true">
+            <dt>Finding</dt>
+            <dd><span class="finding__badge" data-f="badge">Plotting…</span><span class="finding__line" data-f="line"></span></dd>
+          </div>
+          <div class="finding__cell" data-finding="change" aria-busy="true">
+            <dt>Change</dt>
+            <dd><span class="finding__num" data-f="change"></span><span class="finding__sub" data-f="change-sub"></span></dd>
+          </div>
+          <div class="finding__cell" data-finding="odds" aria-busy="true">
+            <dt>Next month</dt>
+            <dd><span class="finding__num" data-f="odds"></span><span class="finding__sub" data-f="odds-sub"></span></dd>
+          </div>
+        </dl>
+        <p id="date-callout" class="callout callout--warn" role="status" hidden></p>
+      </div>
     </div>
-    <div class="field" id="depth-field" hidden>
-      <label for="depth-select" class="form-label"><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Soil depth</label>
-      <select id="depth-select" class="form-select"></select>
-    </div>
-    <p id="variable-definition" class="definition"></p>
-    <p id="controls-status" class="status" role="alert" hidden></p>
-  </section>
+  </header>
 
   <main id="main" class="board">
 
-    <!-- Section 5: 3D map with state-level phenomena estimates -->
-    <section id="map-panel" class="panel map-panel" aria-label="Statewide phenomena outlook">
-      <h2 class="panel-title"><span class="tile" aria-hidden="true"><i class="fa-solid fa-map-location-dot"></i></span> Statewide phenomena outlook</h2>
-      <div class="map-wrap">
+    <!-- ============================== SHEET 02 · the record ============================== -->
+    <section id="chart-panel" class="sheet panel panel--chart" aria-labelledby="chart-h" aria-busy="true">
+      <div class="strip">
+        <a class="strip__no" href="#chart-panel">02</a>
+        <span class="strip__title">Record</span>
+        <span class="strip__ref" data-ref="02">TD-02 · Sheet 02 / 04</span>
+      </div>
+      <h2 id="chart-h" class="panel-title"><span class="tile" aria-hidden="true"><i class="fa-solid fa-chart-line"></i></span> Change over time</h2>
+      <div class="record">
+        <div class="frame frame--chart">
+          <div id="chart" class="chart-canvas">
+            <p class="placeholder">The time series will appear here once the data is connected.</p>
+          </div>
+          <span class="readout" id="chart-readout" aria-hidden="true"></span>
+          <span class="corner corner--tl" aria-hidden="true"></span>
+          <span class="corner corner--br" aria-hidden="true"></span>
+        </div>
+        <div class="record__side">
+          <div class="chart-toggles" role="group" aria-label="Chart layers">
+            <button type="button" class="chip" id="toggle-monthly" aria-pressed="false">Show monthly values</button>
+          </div>
+          <div id="verdict" class="verdict" aria-live="polite"></div>
+        </div>
+      </div>
+      <p id="chart-source" class="chart-source"></p>
+    </section>
+
+    <!-- ============================== SHEET 03 · the odds ============================== -->
+    <section id="probability-panel" class="sheet panel" aria-labelledby="prob-h" aria-busy="true">
+      <div class="strip">
+        <a class="strip__no" href="#probability-panel">03</a>
+        <span class="strip__title">Odds</span>
+        <span class="strip__ref" data-ref="03">TD-03 · Sheet 03 / 04</span>
+      </div>
+      <h2 id="prob-h" class="panel-title"><span class="tile" aria-hidden="true"><i class="fa-solid fa-gauge-high"></i></span> Chance of an event</h2>
+      <div class="prob-head">
+        <p id="prob-value" class="prob-value">&ndash;</p>
+        <div class="prob-meta">
+          <p id="prob-label" class="prob-label">No prediction yet</p>
+          <span id="prob-tag" class="tag" hidden></span>
+        </div>
+      </div>
+      <div id="prob-meter" class="meter" role="img" hidden>
+        <div id="meter-fill" class="meter-fill"></div>
+        <div id="meter-excess" class="meter-excess" aria-hidden="true"></div>
+        <div id="meter-tick" class="meter-tick"></div>
+      </div>
+      <p id="meter-legend" class="meter-legend" hidden></p>
+      <p id="prob-sentence" class="prob-sentence"></p>
+      <ul id="prob-others" class="prob-others"></ul>
+      <p id="prob-basis" class="chart-source"></p>
+      <p id="prob-note" class="prob-note" role="status"></p>
+    </section>
+
+    <!-- ============================== SHEET 04 · the map ============================== -->
+    <section id="map-panel" class="sheet panel map-panel" aria-labelledby="map-h" aria-busy="true">
+      <div class="strip">
+        <a class="strip__no" href="#map-panel">04</a>
+        <span class="strip__title">Map</span>
+        <span class="strip__ref" data-ref="04">TD-04 · Sheet 04 / 04</span>
+      </div>
+      <h2 id="map-h" class="panel-title"><span class="tile" aria-hidden="true"><i class="fa-solid fa-map-location-dot"></i></span> Statewide phenomena outlook</h2>
+      <div class="map-wrap frame">
         <div id="map" class="map-canvas" role="region" aria-label="Map of statewide drought and flood risk estimates"></div>
         <p id="map-message" class="map-message" role="status">Loading the map&hellip;</p>
         <span id="map-demo" class="map-demo" hidden>Demo data – not real predictions</span>
+        <span class="readout" id="map-readout" aria-hidden="true"></span>
+        <span class="corner corner--tl" aria-hidden="true"></span>
+        <span class="corner corner--br" aria-hidden="true"></span>
       </div>
-      <ul id="map-legend" class="map-legend"></ul>
+      <div class="map-tools">
+        <ul id="map-legend" class="map-legend"></ul>
+        <button type="button" class="chip" id="toggle-3d" aria-pressed="false">3D terrain</button>
+      </div>
       <p id="map-note" class="chart-source"></p>
       <ul id="map-list" class="map-list" aria-label="Hotspots as a list"></ul>
     </section>
 
-    <div class="board-side">
-
-      <!-- Section 3: time series + plain-English verdict -->
-      <section id="chart-panel" class="panel" aria-label="Change over time">
-        <h2 class="panel-title"><span class="tile" aria-hidden="true"><i class="fa-solid fa-chart-line"></i></span> Change over time</h2>
-        <div id="chart" class="chart-canvas">
-          <p class="placeholder">The time series will appear here once the data is connected.</p>
-        </div>
-        <p id="chart-source" class="chart-source"></p>
-        <div id="verdict" class="verdict" aria-live="polite"></div>
-      </section>
-
-      <!-- Section 4: phenomenon probability -->
-      <section id="probability-panel" class="panel" aria-label="Chance of an event">
-        <h2 class="panel-title"><span class="tile" aria-hidden="true"><i class="fa-solid fa-gauge-high"></i></span> Chance of an event</h2>
-        <div class="prob-head">
-          <p id="prob-value" class="prob-value">&ndash;</p>
-          <div class="prob-meta">
-            <p id="prob-label" class="prob-label">No prediction yet</p>
-            <span id="prob-tag" class="tag" hidden></span>
-          </div>
-        </div>
-        <div id="prob-meter" class="meter" role="img" hidden>
-          <div id="meter-fill" class="meter-fill"></div>
-          <div id="meter-tick" class="meter-tick"></div>
-        </div>
-        <p id="meter-legend" class="meter-legend" hidden></p>
-        <p id="prob-sentence" class="prob-sentence"></p>
-        <ul id="prob-others" class="prob-others"></ul>
-        <p id="prob-basis" class="chart-source"></p>
-        <p id="prob-note" class="prob-note" role="status"></p>
-      </section>
-
-    </div>
   </main>
 
 </div>
@@ -83,6 +165,7 @@
 {% block scripts %}
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
 <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="{{ url_for('static', filename='js/summary.js') }}"></script>
 <script src="{{ url_for('static', filename='js/map.js') }}"></script>
 <script src="{{ url_for('static', filename='js/chart.js') }}"></script>
 <script src="{{ url_for('static', filename='js/verdict.js') }}"></script>

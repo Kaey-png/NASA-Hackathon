@@ -1,0 +1,9 @@
+# Extra packages for the analysis and model-training scripts in DataAnalysis/.
+# The web app itself only needs ../requirements.txt.
+numpy
+pandas
+torch>=2.6
+scikit-learn
+scipy
+statsmodels
+matplotlib
